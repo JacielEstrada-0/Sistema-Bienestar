@@ -1,11 +1,11 @@
 #1. Estructura de Datos
-fechas = ["24/11/2003","25/11/2003","26/11/2003"]
-horas_sueño = [8,12,9]
-vasos_agua = [6,8,4]
-minutos_actividad = [15,30,45]
+fechas = [""]
+horas_sueño = []
+vasos_agua = []
+minutos_actividad = []
 niveles_estres = [7,2,4]
-estado_animo = ["Neutral","Contento","Triste"]
-opciones_animo = ["Muy Triste" , "Triste" , "Neutral" , "Contento" , "Muy Contento"]
+estado_animo = []
+opciones_animo = []
 opcion=0
 suma_sueño=0
 suma_agua=0
@@ -258,4 +258,5 @@ while opcion==0:
     if opcion==6:
         print(">>> >>> >>> SALIENDO DEL SISTEMA <<< <<< <<<")
         print("Gracias por confiar en el SSBP\n¡Te esperamos pronto!")
+
         break
